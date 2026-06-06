@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N30JZ8Z4V6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-N30JZ8Z4V6');
+    </script>
+
+    <title>The Zhang Lab</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+            background-image: url('background.jpg'); /* Adds your background image */
+            background-size: cover; /* Cover the entire page */
+            background-attachment: fixed; /* Fix background during scroll */
+            position: relative;
+            flex-direction: column; /* Stacks children vertically */
+        }
+        html, body {
+            min-height: 100%; /* Ensures that the html and body take up the minimum height of the viewport */
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            padding: 14px 16px;
+        }
+        .navbar img {
+            float: left;
+            width: 134.69px;
+            height: 50px;
+            margin-right: 16px;
+        }
+        .navbar a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .right-section {
+            float: right;
+            width: 240px; /* Adjust as needed */
+            margin: 20px;
+            text-align: center;
+            margin-right: 6%; /* Reduce right margin (or adjust as needed) */
+        }
+        .avatar, .intro-box {
+            width: 100%; /* Ensure both elements take full width */
+            border-radius: 5px; /* Rounded corners for both */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        }
+        .avatar {
+            display: block; /* Remove any default inline spacing */
+            margin-bottom: 20px; /* Space between image and text */
+        }
+        .intro-box {
+            background-color: #f4f4f4; /* Light grey background */
+            padding: 10px;
+            margin-bottom: 20px; /* Consistent spacing below the box */
+            line-height: 1.2; /* Adjust line spacing here */
+            font-size: 18px; /* Adjust this value to make the text larger or smaller */
+        }
+        .first-line {
+        font-weight: bold; /* Adjust the weight as needed */
+        }
+        .content-section {
+            flex: 1;
+            position: relative;
+            z-index:2;
+            margin-left: 5%; /* Add left margin for text content */
+            width: 60%; /* Adjust width as needed */
+            line-height: 1.5; /* Adjust line spacing here */
+            margin-left: 6%; /* Reduce left margin to bring closer to the avatar section */
+        }
+        .external-links a {
+        color: #007BFF; /* Standard link color */
+        text-decoration: underline; /* No underline */
+        line-height: 1.2; /* Adjust line spacing here */
+        }
+        .external-links a:hover {
+        text-decoration: underline; /* Underline on hover for better UX */
+        }
+        .body-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.7); /* White background with opacity */
+            z-index: 1;
+        }
+
+        .content-wrapper {
+            position: relative;
+            z-index: 2; /* Ensures content is above the overlay */
+        }
+
+        .navbar, .right-section {
+            position: relative; /* Ensure these elements are positioned above the overlay */
+            z-index: 2;
+        }
+
+        .lab-image {
+            text-align: left; /* Aligns image to the left */
+            margin-top: 20px;
+        }
+        .etec-lab-image {
+            max-width: 575px;
+            height: auto;
+            display: block;
+            margin-left: 0; /* Ensures it stays on the left */
+            border-radius: 5px; /* Rounded corners for both */
+        }
+    </style>
+        
+</head>
+<body>
+    <div class="navbar">
+        <img src="UAlbanyLogo.png" alt="UAlbany Logo" onclick="window.location.href='https://www.albany.edu';" style="cursor: pointer;">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="people.html">People</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="right-section">
+        <img src="PicWZ.jpg" alt="Weilan Zhang" class="avatar">
+        <div class="intro-box">
+            <span class="first-line">Weilan Zhang, Ph.D., P.E.</span><br>
+            Assistant Professor<br>
+            <br>
+            Department of Environmental & Sustainable Engineering<br>
+            <br>
+            College of Nanotechnology, Science, and Engineering<br>
+            <br>
+            University at Albany, SUNY<br>
+            ETEC 135<br>
+            1400 Washington Ave.<br>
+            Albany, NY 12222<br>
+            Tel: 518-437-4982<br>
+            <a href="mailto:wzhang4@albany.edu">wzhang4@albany.edu</a>
+        </div>
+    </div>
+
+    <div class="content-section">
+        
+        <div class="lab-image">
+            <img src="ETEC.jpg" alt="ETEC Building" class="etec-lab-image">
+        </div>
+
+        <h2>Welcome to The Zhang Lab: Advancing Contaminant Research</h2>
+
+        <p>Our research focuses on the following areas:<br>
+            
+            1. Environmental risk assessment for emerging contaminants (e.g., PFAS, engineered nanomaterials)<br>
+            2. PFAS treatment techniques (e.g., phytoremediation, hydrothermal liquefaction, adsorption)<br>
+            3. Transport and fate of emerging contaminants in water and soil<br>
+            <br>
+            Our findings will enhance understanding of the bioaccumulation of emerging contaminants, clarify their environmental and health implications, and contribute to addressing the pollution challenges they pose.<br>
+            </p>
+      
+        <div class="external-links">
+            <a href="https://scholar.google.com/citations?user=-YUwTrgAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar Profile</a><br>
+            <a href="https://www.researchgate.net/profile/Weilan_Zhang" target="_blank">ResearchGate Profile</a><br>
+            <a href="https://orcid.org/0000-0003-3148-1751" target="_blank">ORCID</a><br>
+            <a href="https://www.albany.edu/environmental-sustainable-engineering/faculty/weilan-zhang" target="_blank">University Website</a><br>
+            <a href="CVWeilan.pdf" target="_blank">CV</a><br>
+        </div>
+    </div>
+    <div class="body-overlay"></div> <!-- Overlay that adds transparency to the background -->
+
+    <div class="content-wrapper">
+        <!-- All your existing page content goes here, e.g., navbar, sections, etc. -->
+    </div>
+</body>
+</html>
