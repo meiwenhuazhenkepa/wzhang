@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Zhang Lab - Research group</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            padding: 14px 16px;
+        }
+        .navbar img {
+            float: left;
+            width: 134.69px;
+            height: 50px;
+            margin-right: 16px;
+        }
+        .navbar a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content-section {
+            margin-left: 5%; /* Add left margin for text content */
+            line-height: 1.5; /* Adjust line spacing here */
+            margin-right: 5%; /* Reduce left margin to bring closer to the avatar section */
+        }
+        .member {
+            display: flex;
+            align-items: center; /* Aligns the image and text vertically */
+            margin-bottom: 20px; /* Adds space between each member entry */
+        }
+
+        .member-photo {
+            width: 120px;
+            height: 120px; /* Set a fixed height */
+            object-fit: cover; /* Maintain aspect ratio and crop if necessary */
+            margin-right: 20px;
+            border-radius: 5%; /* Makes the image circular, remove if you prefer square images */
+        }
+        .group-photos {
+            width: 100%;
+            max-width: 800px; /* Set a maximum width to keep images aligned */
+            margin: 0 left; /* Center the group photos section */
+        }
+
+        .photo-row {
+            display: flex;
+            justify-content: space-between; /* Ensures equal spacing */
+            margin-bottom: 20px;
+        }
+
+        .photo-container {
+            width: 48%; /* Ensures two images per row without shifting */
+            text-align: left;
+        }
+
+        .group-photo {
+            width: 100%; /* Ensures the image fits within the container */
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <img src="UAlbanyLogo.png" alt="UAlbany Logo" onclick="window.location.href='https://www.albany.edu';" style="cursor: pointer;">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="people.html">People</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="content-section">
+        <h2>PI</h2>
+        <div class="member">
+            <img src="WeilanZhang.jpg" alt="Dr. Weilan Zhang" class="member-photo">
+            <p>
+                Weilan Zhang<br>
+                2017	Ph.D. Texas A&M University<br>
+                2012	M.S. Southern Illinois University Carbondale<br>
+                2010	B.E. Chongqing University<br>
+            </p>                     
+        </div>
+        
+        <h2>Current Members</h2>
+        <div id="team-members">
+            <div class="member">
+                <img src="MadhavKharel.jpg" alt="Madhav Kharel" class="member-photo">
+                <p>
+                    Madhav Kharel<br>
+                    Ph.D. student<br>
+                    Research Interests: PFAS treatment<br>
+                </p>
+            </div>
+            <div class="member">
+                <img src="AmitLama.jpg" alt="Amit Lama" class="member-photo">
+                <p>
+                    Amit Lama<br>
+                    Ph.D. student<br>
+                    Research Interests: Plant uptake of PFAS<br>
+                </p>
+            </div>
+            <div class="member">
+                <img src="Brayden.jpg" alt="Brayden DiSiena" class="member-photo">
+                <p>
+                    Brayden DiSiena<br>
+                    High school student<br>
+                </p>
+            </div>         
+            <!-- Add more team members here -->
+        </div>
+
+        <h2>Previous Members</h2>
+        <div id="team-members">
+            
+            <b>Master’s student</b><br>
+                Yuwei Zuo<br>
+
+            <br>
+
+            <b>Undergraduate students</b><br>
+                David Feygin<br>
+                Sridhana Tata<br>
+                Mahmood Al-Farsi<br>
+            <!-- Add more team members here -->
+            
+            <br>
+            
+        </div>
+
+        <hr> <!-- This is the split line -->
+        
+        <h2>Group photos</h2>
+        <div class="group-photos">
+            
+            <div class="photo-row">
+                
+                <div class="photo-container">
+                    <a href="groupphoto6.jpg" target="_blank">
+                        <img src="groupphoto6.jpg" alt="Group Photo 6" class="group-photo">
+                    </a>
+                    <p>2025 Soil sampling in the NYS Capital Region</p>
+                </div>
+
+                <div class="photo-container">
+                    <a href="groupphoto5.jpg" target="_blank">
+                        <img src="groupphoto5.jpg" alt="Group Photo 5" class="group-photo">
+                    </a>
+                    <p>Fall 2025 Semester Kickoff Lunch</p>
+                </div>
+            
+            </div>
+            
+            <div class="photo-row">
+
+                <div class="photo-container">
+                    <a href="groupphoto4.jpg" target="_blank">
+                        <img src="groupphoto4.jpg" alt="Group Photo 4" class="group-photo">
+                    </a>
+                    <p>David presented his work at the SURP 2025 poster session</p>
+                </div>
+
+                <div class="photo-container">
+                    <a href="groupphoto3.jpg" target="_blank">
+                        <img src="groupphoto3.jpg" alt="Group Photo 3" class="group-photo">
+                    </a>
+                    <p>2024 End-of-year celebration</p>
+                </div>
+
+            </div>
+            
+            <div class="photo-row">
+                
+                <div class="photo-container">
+                    <a href="groupphoto1.jpg" target="_blank">
+                        <img src="groupphoto1.jpg" alt="Group Photo 1" class="group-photo">
+                    </a>
+                    <p>2024 Summer field sampling in NYS Great Lakes Basin</p>
+                </div>
+                
+                <div class="photo-container">
+                    <a href="groupphoto2.jpg" target="_blank">
+                        <img src="groupphoto2.jpg" alt="Group Photo 2" class="group-photo">
+                    </a>
+                    <p>Lab gathering in May 2024</p>
+                </div>
+
+            </div>
+        
+        </div>
+    </div>    
+    
+</body>
+</html>
